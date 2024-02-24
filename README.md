@@ -19,7 +19,7 @@ To get started with RFAutoMaTE, follow these simple steps:
 
 1. **Installation:** Clone the repository to your local machine.
    ```bash
-   git clone https://github.com/your-username/RFAutoMaTE.git
+   git clone https://github.com/mriLab-i3M/RFAutoMaTE.git
 
 2. **Configura.tion:** Adjust RFAutoMaTE settings according to your system requirements.
 3. **Usage:** Integrate RFAuotMaTE into your MRI system for automatic RF coil matching and tuning.
