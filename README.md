@@ -4,7 +4,7 @@ Welcome to RFAutoMaTE, **R**adio **F**requency **Auto**matic **Ma**tching and **
 
 ## Overview
 
-RFAutoMaTE is designed to provide efficient and automatic matching of RF coils to ensure optimal performance and signal quality in Magnetic Resonance Imaging (MRI) systems. The equipment is equipped with advanced technology to simplify the impedance tuning process, making it a valuable asset for medical professionals and researchers.
+RFAutoMaTE is designed to provide efficient and automatic matching of RF coils to ensure optimal performance and signal quality in Magnetic Resonance Imaging (MRI) systems.
 
 ## Features
 
@@ -13,7 +13,7 @@ RFAutoMaTE is designed to provide efficient and automatic matching of RF coils t
 - **Tuning Efficiency:** Efficient T (Tuning) for enhanced imaging performance.
 - **Ease of Use:** E (Equipment) designed for user-friendly operation.
 
-## Getting Started
+## Getting Started (TODO)
 
 To get started with RFAutoMaTE, follow these simple steps:
 
@@ -25,7 +25,8 @@ To get started with RFAutoMaTE, follow these simple steps:
 3. **Usage:** Integrate RFAuotMaTE into your MRI system for automatic RF coil matching and tuning.
 
 ## Contributing
-We welcome contributions from the community. If you have ideas for improvements or new features, please open an issue or submit a pull request.
+1. Rubén Bosch Esteve, circuit design and pcb design
+2. José Miguel Algarín, circuit design, arduino code, integration with MaRGE
 
 ## License
 RFAutoMaTE is released under the GNU General Public License (GPL) v3.0.
