@@ -25,8 +25,8 @@ To get started with RFAutoMaTE, follow these simple steps:
 3. **Usage:** Integrate RFAuotMaTE into your MRI system for automatic RF coil matching and tuning.
 
 ## Contributing
-1. Rubén Bosch Esteve, circuit design and pcb design
-2. José Miguel Algarín, circuit design, arduino code, integration with MaRGE
+1. [Rubén Bosch Esteve](https://github.com/RubenBoschEsteve), circuit design and pcb design
+2. [José Miguel Algarín Guisado](https://github.com/josalggui), circuit design, arduino code, integration with MaRGE
 
 ## License
 RFAutoMaTE is released under the GNU General Public License (GPL) v3.0.
