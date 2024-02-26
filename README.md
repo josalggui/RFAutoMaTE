@@ -29,15 +29,15 @@ To test if relays are working properly, load the `test_arduino.ino` into the ard
 
 If everything is ok. load the `autotunig_arduino.ino` into the arduino. Now the user can turn on/off relays by serial communication.
 
-RFAutoMaTE is able to change the impedance by de/activating relays that adds c
-apacitance to a T circuit. The T circuit include a series capacitor, tuning and
-matching.
+RFAutoMaTE is able to change the impedance by de/activating relays that chanes capacitance to a T circuit. The T circuit includes a series, tuning and matching capacitors.
+
+<img src="figures/Circuit.png">
 
 Each capacitance has up to 5 capacitors, giving a total of 15 pins. An additional
 digital signal (TTL) allow the user to switch the tuning matching between the
 Tx/Rx switch to run MRI experiments or to the VNA to measure the coil impedance.
 
-User can control the status by sending a set of 16 digits to de/activate the
+User can control the status by sending a set of 16 (15 capacitors + 1 switch) digits to de/activate the
 capacitance.
 0->Capacitor activated
 1->Capacitor deactivated
@@ -47,10 +47,10 @@ Last digit correspond the switching between VNA and TxRx switch:
 1->VNA
 
 For example, if the user wants to activate all capcitors and connect to TxRx switch:
-0000000000000000
+`0000000000000000`
 
-For the momento, the code does not check the number of digits. So make sure that
-the number of digits is 16, otherwise, arduino can look frozen.
+For the moment, the code does not check the number of digits. So make sure that
+the number of digits is 16, otherwise, arduino can get frozen.
 
 ## Contributors
 1. [Rubén Bosch Esteve](https://github.com/RubenBoschEsteve), circuit design and pcb design
