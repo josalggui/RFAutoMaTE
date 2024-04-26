@@ -1,0 +1,9 @@
+- El vna hay que apagarlo porque mete una interferencia
+- VNA, ARDUINO TIENEN SU PROPIA CAJA DE ALUMINIO A MODO DE JAULA FARADAY
+- EN LA PCB DE IMPEDANCE MATCHING:
+  - 1K5M,1K5TTL,1K5T,1K5S NO MONTAR!
+  - LEDs pertenecientes a PWM NO MONTAR!
+  - 4K7TTL, 4K7M, 4K7T, 4K7S
+- Los cables de alimentación se ha utilizado cables coaxiales cnt 240
+- Conectores sma VNA,AMPLI, COIL agujeros no conectado a tierra, para evitar loops, si no van a un conector a panel, conectar a tierra.
+- Fuente lineal se calienta poner disipador

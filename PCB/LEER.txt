@@ -1,0 +1,9 @@
+El esquema hecho en Altium no es exactament el utilizado para la pcb, porque se realizao directamente la pcb, pero sirve para ver las conexiones, donde pone 5 es porque estan montado 5 circuitos identicos en paralelo.
+
+No montar:
+
+- LEDS PWM S1..5, T1..5, M1..5
+- resistencias 1k5
+
+Cortocircuitar:
+- resistencia 4k7
