@@ -46,7 +46,7 @@ Last digit correspond the switching between VNA and TxRx switch:
 0->TxRx switch
 1->VNA
 
-For example, if the user wants to activate all capcitors and connect to TxRx switch:
+For example, if the user wants to activate all capacitors and connect to TxRx switch:
 `0000000000000000`
 
 For the moment, the code does not check the number of digits. So make sure that
